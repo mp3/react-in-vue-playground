@@ -1,9 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import { Counter } from './counter'
 
 export const Main = () => {
   return (
-    <div>React in Vue component</div>
+    <div>
+      {'React in Vue component'}
+      <Counter />
+    </div>
   )
 }
 
