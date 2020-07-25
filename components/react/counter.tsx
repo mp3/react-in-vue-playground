@@ -9,7 +9,7 @@ export const Counter = () => {
 
   return (
     <div>
-      {`Count: ${count}`}
+      {`Counter with React: ${count} `}
       <button onClick={add}>add</button>
     </div>
   )
