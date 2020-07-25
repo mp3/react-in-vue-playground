@@ -1,5 +1,5 @@
 <template>
-  <div id="reactRoot" ref="reactRoot">React Root</div>
+  <div ref="reactRoot">React Root</div>
 </template>
 
 <script lang="ts">
