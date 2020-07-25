@@ -3,7 +3,7 @@
     <div ref="reactRoot">React Root</div>
     <div class="counter">
       Counter with Vue
-      {{ count }} <button @click="add">add</button>
+      {{ count }} <button @click="increment">increment</button>
     </div>
   </div>
 </template>
@@ -24,7 +24,7 @@ export default Vue.extend({
   },
 
   methods: {
-    add() {
+    increment() {
       this.count = this.count + 1
     }
   }
