@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:mp3/react-in-nuxt-playground.git",
   "author": "mp3 <im.in.a.coma.xxx@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "nuxt": "^2.13.3"
+  }
 }
