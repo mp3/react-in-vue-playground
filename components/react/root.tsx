@@ -1,12 +1,14 @@
 import React, { CSSProperties } from 'react'
 import ReactDOM from 'react-dom'
-import { Counter } from './counter'
+import { Counter } from './Counter'
+import { InputText } from './InputText'
 
 export const Main = () => {
   return (
     <div style={style}>
       {'React in Vue component'}
       <Counter />
+      <InputText />
     </div>
   )
 }
