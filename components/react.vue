@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="container">
     <div ref="reactRoot">React Root</div>
-    <div>
+    <div class="counter">
       Counter with Vue
       {{ count }} <button @click="add">add</button>
     </div>
@@ -30,3 +30,14 @@ export default Vue.extend({
   }
 })
 </script>
+
+<style>
+.container {
+  padding: 12px;
+  border: 2px solid #42b883;
+}
+
+.counter {
+  border: 2px solid #42b883;
+}
+</style>
