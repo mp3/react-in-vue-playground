@@ -2,12 +2,13 @@
   <div id="reactRoot" ref="reactRoot">React Root</div>
 </template>
 
-<script>
+<script lang="ts">
+import Vue from 'vue'
 import { render } from './react/root'
 
-export default {
+export default Vue.extend({
   mounted() {
-    render(this.$refs.reactRoot)
+    render(this.$refs.reactRoot as HTMLElement)
   }
-}
+})
 </script>

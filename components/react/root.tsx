@@ -7,6 +7,6 @@ export const Main = () => {
   )
 }
 
-export const render = (root) => {
+export const render = (root: HTMLElement) => {
   ReactDOM.render(<Main />, root)
 }
